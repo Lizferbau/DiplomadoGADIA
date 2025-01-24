@@ -1,0 +1,80 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": 2,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "SUjEta5uPMfq",
+        "outputId": "21b8b5b0-7785-4c0c-c313-562a9dba46c7"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Suma: 13\n",
+            "Resta: 7\n",
+            "Multiplicación: 30\n",
+            "División: 3.3333333333333335\n",
+            "Módulo: 1\n",
+            "Potencia: 1000\n",
+            "División entera: 3\n"
+          ]
+        }
+      ],
+      "source": [
+        "# Declarar las variables a y b\n",
+        "a = 10\n",
+        "b = 3\n",
+        "\n",
+        "# Suma\n",
+        "s = a + b\n",
+        "print(f\"Suma: {suma}\")\n",
+        "# Resta\n",
+        "r = a - b\n",
+        "print(f\"Resta: {resta}\")\n",
+        "# Multiplicación\n",
+        "m = a * b\n",
+        "print(f\"Multiplicación: {multiplicacion}\")\n",
+        "# División\n",
+        "d = a / b\n",
+        "print(f\"División: {division}\")\n",
+        "# Módulo\n",
+        "m = a % b\n",
+        "print(f\"Módulo: {modulo}\")\n",
+        "# Potencia\n",
+        "p = a ** b\n",
+        "print(f\"Potencia: {potencia}\")\n",
+        "# División entera\n",
+        "d_e = a // b\n",
+        "print(f\"División entera: {division_entera}\")\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "03TIbhnxPeIX"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
